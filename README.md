@@ -21,3 +21,7 @@ Run `yarn build:pro` to build a production package, it's in dist folder
 2. Replace content in `message` property to your locale language
 
 ATTENTION: When you create a new key, make sure the key should without space and not duplicate with exist(case insensitive)
+
+## Architecture
+
+![architecture](./architecture.png)
