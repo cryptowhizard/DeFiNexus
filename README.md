@@ -25,3 +25,7 @@ ATTENTION: When you create a new key, make sure the key should without space and
 ## Architecture
 
 ![architecture](./architecture.png)
+
+## Extension's scripts
+
+below 4 scripts all live in different context!
