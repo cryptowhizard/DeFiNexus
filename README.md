@@ -29,3 +29,20 @@ ATTENTION: When you create a new key, make sure the key should without space and
 ## Extension's scripts
 
 below 4 scripts all live in different context!
+
+### **- `background.js`**
+
+for all async request and encrypt things.
+
+user's keyrings, password and wallet personal preference data all stored in chrome local storage.
+
+it has 2 main controllers:
+
+1. `walletController`
+
+   it expose methods to background window, so other scripts can access these methods with `runtime.getBackgroundPage`, e.g. `ui.js`.
+
+2. `providerController`
+
+   it handles request from pages(dapp request).
+   
