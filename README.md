@@ -46,3 +46,5 @@ it has 2 main controllers:
 
    it handles request from pages(dapp request).
    
+### **- `content-script`**
+the main purpose is inject `pageProvider.js` and pass messages between `pageProvider.js` and `background.js`.
