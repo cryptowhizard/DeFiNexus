@@ -48,3 +48,13 @@ it has 2 main controllers:
    
 ### **- `content-script`**
 the main purpose is inject `pageProvider.js` and pass messages between `pageProvider.js` and `background.js`.
+
+### **- `pageProvider.js`**
+
+this script is injected into dapp's context through `content-script`. it mounts `ethereum` to `window`.
+
+when dapp use `window.ethereum` to request, it will send message to `content-script` with `broadcastChannel` and wait for it's response.
+
+then the `content-script` will send message to `background` with `runtime.connect`.
+
+after `background` receive the message, it will use `providerController` to handle the request. and keep the message channel in `sessionSevice` for later communicate.
