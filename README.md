@@ -58,3 +58,7 @@ when dapp use `window.ethereum` to request, it will send message to `content-scr
 then the `content-script` will send message to `background` with `runtime.connect`.
 
 after `background` receive the message, it will use `providerController` to handle the request. and keep the message channel in `sessionSevice` for later communicate.
+
+### **- `ui`**
+
+it's used by 3 pages which share the same js code, but the template html is different for respective purpose.
