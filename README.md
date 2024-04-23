@@ -62,3 +62,7 @@ after `background` receive the message, it will use `providerController` to hand
 ### **- `ui`**
 
 it's used by 3 pages which share the same js code, but the template html is different for respective purpose.
+
+1. `notification.html`
+
+   triggered by dapp to request user's permission.
