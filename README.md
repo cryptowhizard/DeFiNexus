@@ -66,3 +66,6 @@ it's used by 3 pages which share the same js code, but the template html is diff
 1. `notification.html`
 
    triggered by dapp to request user's permission.
+2. `index.html`
+
+   opened in browser tab for better user interaction experience.
