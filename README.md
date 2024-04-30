@@ -69,3 +69,7 @@ it's used by 3 pages which share the same js code, but the template html is diff
 2. `index.html`
 
    opened in browser tab for better user interaction experience.
+
+3. `popup.html`
+
+   user click the extension icon on the right of address bar, the popup will show.
