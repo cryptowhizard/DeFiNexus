@@ -20,8 +20,6 @@ Run `yarn build:pro` to build a production package, it's in dist folder
 1. Copy `_raw/_locales/en/messages.json` to `_raw/_locales/${localCode}/messages.json` (Find your locale code in [https://en.wikipedia.org/wiki/Language_localisation#Language_tags_and_codes](https://en.wikipedia.org/wiki/Language_localisation#Language_tags_and_codes))
 2. Replace content in `message` property to your locale language
 
-ATTENTION: When you create a new key, make sure the key should without space and not duplicate with exist(case insensitive)
-
 ## Architecture
 
 ![architecture](./architecture.png)
