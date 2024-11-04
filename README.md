@@ -74,6 +74,3 @@ it's used by 3 pages which share the same js code, but the template html is diff
 
 ## Thanks
 
-1. Install Node.js version 14.5 or later
-2. Install Yarn `npm install -g yarn`
-3. Run `yarn` to install dependency
